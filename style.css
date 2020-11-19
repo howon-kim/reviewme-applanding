@@ -294,6 +294,18 @@ input:-webkit-autofill:focus {
     background-color: #f5f6ff;
 }
 
+.blue3-bg {
+    background-color: hsla(182, 68%, 58%, 0.1);
+}
+
+.blue2-bg {
+    background-color: hsla(200, 100%, 48%, 0.1);
+}
+
+.blue1-bg {
+    background-color: hsla(216, 87%, 49%, 0.1);
+}
+
 /*-- 5. MainMenu-Area --*/
 
 .mainmenu-area {
@@ -447,7 +459,6 @@ input:-webkit-autofill:focus {
     background-position: right center;
     background-size: auto 100%;
     --*/
-    background-color: #00a4f6;
     margin-top: 90px;
     margin-bottom: 220px;
 }
@@ -459,7 +470,6 @@ input:-webkit-autofill:focus {
     background-position: left center;
     background-size: auto;
     --*/
-    background-color: #e3b35f;
     margin-top: 90px;
     margin-bottom: 220px;
 }
