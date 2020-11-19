@@ -37,7 +37,7 @@ CSS INDEX
 1. Google font
 ------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,400i,600,700,800');
 
 /*-------------------
 2. Theme Default CSS
@@ -82,7 +82,8 @@ h6 {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 55px;
+    font-weight: 600;
 }
 
 h2 {
@@ -91,6 +92,7 @@ h2 {
 
 h3 {
     font-size: 32px;
+    font-weight: 800;
 }
 
 html,
@@ -99,11 +101,12 @@ body {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 32px;
+    line-height: 24px;
     color: #8790af;
+    letter-spacing: -0.5px;
 }
 
 
@@ -249,17 +252,10 @@ input:-webkit-autofill:focus {
     top: 0;
     width: 100%;
     height: 100%;
+    
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#482cbf+0,6ac6f0+100 */
-    background: rgb(72, 44, 191);
-    /* Old browsers */
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: -o-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-    background: linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
-    opacity: 0.8;
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
     /* IE6-9 fallback on horizontal gradient */
     z-index: -2;
 }
@@ -316,10 +312,12 @@ input:-webkit-autofill:focus {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgb(72, 44, 191);
+    background: rgb(0, 0, 0);
+    /*-- 
     background: -webkit-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
     background: -o-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
     background: linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+    --*/
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
     z-index: -1;
     opacity: 0;
@@ -344,10 +342,10 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area .right-button a {
-    color: #ffffff;
+    color: #000000;
     padding: 10px 40px;
     border-radius: 50px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgb(255, 255, 255);
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -356,8 +354,8 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area .right-button a:hover {
-    background-color: rgba(255, 255, 255, 1);
-    color: #768ede;
+    background-color: rgba(106, 198, 240, 1);
+    color: #ffffff;
 }
 
 .mainmenu-area ul.mainmenu {
@@ -447,11 +445,24 @@ input:-webkit-autofill:focus {
     margin-bottom: 220px;
 }
 
+.progress-area-left {
+    background-image: url('images/progress-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto 100%;
+    margin-top: 90px;
+    margin-bottom: 220px;
+}
+
 .progress-area .mobile-image {
     margin-top: -90px;
     margin-bottom: -153px;
 }
 
+.progress-area-left .mobile-image {
+    margin-top: -90px;
+    margin-bottom: -153px;
+}
 /*-- 9. Video-Area --*/
 
 .video-area {
