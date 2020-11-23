@@ -102,10 +102,10 @@ body {
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 18px;
     line-height: 24px;
-    color: #8790af;
+    color: #000000;
     letter-spacing: -0.5px;
 }
 
@@ -449,6 +449,8 @@ input:-webkit-autofill:focus {
     margin-right: 0;
     margin-left: 0;
     margin-bottom: -158px;
+    width: 90%;
+    height: 90%;
 }
 
 /*-- 8. Progress-Area --*/
@@ -478,11 +480,15 @@ input:-webkit-autofill:focus {
 .progress-area .mobile-image {
     margin-top: -90px;
     margin-bottom: -153px;
+    width: 60%;
+    height: 60%;
 }
 
 .progress-area-left .mobile-image {
     margin-top: -90px;
     margin-bottom: -153px;
+    width: 60%;
+    height: 60%;
 }
 /*-- 9. Video-Area --*/
 
