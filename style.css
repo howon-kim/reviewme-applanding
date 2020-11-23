@@ -687,16 +687,16 @@ input:-webkit-autofill:focus {
 }
 
 .gallery-slide .owl-stage-outer {
-    background: url('images/mobile-screen.png') no-repeat center right / auto 100%;
+    background: url('images/mobile-screen.png') no-repeat center right / auto 80%;
 
 }
 
 .gallery-slide .item {
     margin: 58px 17px 70px 15px;
     overflow: hidden;
-    border-radius: 2px;
+    border-radius: 12px;
 }
-
+/**
 .gallery-slide .owl-controls {
     position: static;
     text-align: right;
