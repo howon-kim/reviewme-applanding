@@ -782,6 +782,8 @@ input:-webkit-autofill:focus {
 .download-area .mobile-image {
     margin-top: -106px;
     margin-bottom: -200px;
+    width:60%;
+    height:60%;
 }
 
 /*-- 15. Price-Area --*/
