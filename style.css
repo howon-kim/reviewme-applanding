@@ -38,7 +38,18 @@ CSS INDEX
 ------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,400i,600,700,800');
-
+@font-face {
+    font-family: 'Jal_Haru';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Haru.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-8Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /*-------------------
 2. Theme Default CSS
 --------------------*/
@@ -79,6 +90,7 @@ h6 {
     margin: 0 0 15px;
     font-weight: 400;
     line-height: 1.4em;
+    font-family: 'S-CoreDream-8Heavy', 'sans-serif';
 }
 
 h1 {
@@ -101,12 +113,12 @@ body {
 }
 
 body {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Jal_Haru', 'sans-serif';
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     color: #3d3c3c;
-    letter-spacing: -0.5px;
+    letter-spacing: 0px;
 }
 
 
@@ -123,9 +135,9 @@ input:-webkit-autofill:focus {
 .bttn-white {
     position: relative;
     background: rgb(72, 44, 191);
-    background: -webkit-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-    background: -o-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-    background: linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+    background: -webkit-linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
+    background: -o-linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
+    background: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
     overflow: hidden;
     z-index: 1;
@@ -172,12 +184,13 @@ input:-webkit-autofill:focus {
     padding: 12px 30px;
     background-color: #ffffff;
     display: inline-block;
-    color: #768ede;
+    color: #000000;
     text-transform: uppercase;
     border-radius: 10px;
     letter-spacing: 1.5px;
     font-weight: 1000;
     font-size: 14px;
+    font-family: 'S-CoreDream-8Heavy', 'sans-serif';
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -196,10 +209,10 @@ input:-webkit-autofill:focus {
     background: rgb(72, 44, 191);
     /* Old browsers */
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+    background: -webkit-linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: -o-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-    background: linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+    background: -o-linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
+    background: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
     color: #ffffff;
@@ -371,7 +384,7 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area .right-button a:hover {
-    background-color: hsl(199, 82%, 68%);
+    background-color: hsl(0, 0%, 0%);
     color: #ffffff;
 }
 
@@ -653,11 +666,12 @@ input:-webkit-autofill:focus {
 .team-box h4 {
     color: #00a4f6;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .team-box h6.position {
-    font-size: 14px;
+    color: #797979;
+    font-size: 12px;
     font-style: italic;
     font-weight: 400;
 }
