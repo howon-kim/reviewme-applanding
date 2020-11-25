@@ -513,6 +513,7 @@ input:-webkit-autofill:focus {
 .progress-area-left .mobile-image {
     margin-top: -90px;
     margin-bottom: -153px;
+    margin-left: 80px;
     width: 60%;
     height: 60%;
 }
