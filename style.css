@@ -470,12 +470,10 @@ input:-webkit-autofill:focus {
 /*-- 8. Progress-Area --*/
 
 .progress-area {
-    /*--
-    background-image: url('images/progress-bg.jpg');
+    background-image: url('images/test.jpg');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: auto 100%;
-    --*/
     margin-top: 90px;
     margin-bottom: 220px;
 }
