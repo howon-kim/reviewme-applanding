@@ -470,7 +470,16 @@ input:-webkit-autofill:focus {
 /*-- 8. Progress-Area --*/
 
 .progress-area {
-    background-image: url('images/tesy.png');
+    background-image: url('images/progress-bg-1.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    margin-top: 90px;
+    margin-bottom: 220px;
+}
+
+.progress-area-another {
+    background-image: url('images/progress-bg-3.png');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: auto 100%;
@@ -479,17 +488,22 @@ input:-webkit-autofill:focus {
 }
 
 .progress-area-left {
-    /*--
-    background-image: url('images/progress-left-bg.jpg');
+    background-image: url('images/progress-bg-2.png');
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: auto;
-    --*/
+    background-size: auto 100%;
     margin-top: 90px;
     margin-bottom: 220px;
 }
 
 .progress-area .mobile-image {
+    margin-top: -90px;
+    margin-bottom: -153px;
+    width: 60%;
+    height: 60%;
+}
+
+.progress-area-another .mobile-image {
     margin-top: -90px;
     margin-bottom: -153px;
     width: 60%;
