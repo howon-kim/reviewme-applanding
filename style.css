@@ -783,7 +783,7 @@ input:-webkit-autofill:focus {
 /*-- 14. Download-Area --*/
 
 .download-area {
-    background-image: url('images/download-bg.png');
+    background-image: url('images/download-bg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
